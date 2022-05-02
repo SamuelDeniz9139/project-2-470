@@ -10,7 +10,7 @@ bool twist = true;
 int pos = 0;    //servo position
 void setup() {
   myservo.attach(9);  //attaches the servo to its object
-  pinMode(buttonPin,INPUT);
+  pinMode(butPin,INPUT);
 }
 void loop() {
   butState = digitalRead(butPin);
